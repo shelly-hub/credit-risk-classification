@@ -20,7 +20,4 @@ On top of this, random forests model is also used to carry out the model accurac
 ## Summary
 Overall, both models result in similar results, high accuracy for predicting loan status.
 
-However, since there is a class imbalance, as the ratio of value counts for high-risk loan is only 3% of total dataset, hence it is important to observe both precison and recall scores. Considering both recall and precision scores for high-risk loan is reasonably good, especially recall scores is at 91%, it can be concluded that simple linear regession model can be used for predicting potential loan borrowers.
-
-
-
+However, since there is a class imbalance, as the ratio of value counts for high-risk loan is only 3% of total dataset, hence it is important to observe both precison and recall scores. Recall scores are more highly considered as company do not want to make false predictions for false negative borrowers whom in real life already has huge debt. Thus, with recall scores being at 91%, it is considered a good prediction. In conclusion, simple linear regession model can be used for predicting potential loan borrowers.
